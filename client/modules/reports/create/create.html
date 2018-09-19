@@ -1,0 +1,22 @@
+<div class="page-content">
+  <form ng-submit="reportPlayer()">
+    <div class="form-group">
+      <label>Cheater In-Game Name <small>(Name of player cheating in the video)</small></label>
+      <input type="text" class="form-control" ng-model="cheaterIGN">
+    </div>
+    <div class="form-group">
+      <label>Link to Video Evidence</label>
+      <input type="url" class="form-control" ng-model="evidenceLink">
+    </div>
+    <div class="form-group">
+      <label>Reporter In-Game Name</label>
+      <input type="text" class="form-control" ng-model="reporterIGN">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Report Player</button>
+  </form>
+
+  <p>You just reported: {{ report.cheaterIGN }}</p>
+</div>

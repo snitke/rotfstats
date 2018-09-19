@@ -1,0 +1,16 @@
+{
+  "name": "rotfstats",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "bower": "^1.8.4",
+    "cors": "^2.8.4",
+    "express": "^4.15.2",
+    "nodemon": "^1.18.4"
+  },
+  "author": "Shawn Nitke",
+  "license": "UNLICENSED"
+}

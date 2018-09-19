@@ -1,0 +1,23 @@
+<div class="row">
+  <h2>RotF Stats</h2>
+</div>
+
+<div class="row">
+  <div class="col-xs-3"></div>
+
+  <div class="col-xs-6 page-content text-center">
+    <form ng-submit="searchPlayer()">
+      <div class="form-group">
+        <label>Test <small>(Just testing)</small></label>
+
+        <input type="text" class="form-control text-center" ng-model="playerIGN" placeholder="RotF Player IGN">
+      </div>
+
+      <button type="submit" class="btn btn-warning">Search</button>
+    </form>
+
+    <p>You just searched: {{ playerIGN2 }}</p>
+  </div>
+
+  <div class="col-xs-3"></div>
+</div>
