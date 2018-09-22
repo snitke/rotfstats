@@ -3,6 +3,7 @@ const app = express();
 const path = require("path");
 const cors = require("cors");
 
+// Setup the express static files to send to the client
 app.use("/static", express.static("client"));
 
 app.route("/")
@@ -12,5 +13,5 @@ app.route("/")
   });
 
 app.listen(3000, () => {
-  console.log('Server started!');
+  console.log("Server started! Go to 'localhost:3000' in your browser.");
 });
