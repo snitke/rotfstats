@@ -17,10 +17,10 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
     templateUrl: "/static/modules/realmtell/start/start.html",
     controller: "RealmTellMainController"
   })
-  .state("login", {
-    url: "/login",
-    templateUrl: "/static/modules/login/login.html",
-    controller: "LoginController"
+  .state("playerdetail", {
+    url: "/player/:id",
+    templateUrl: "/static/modules/player.detail/detail.html",
+    controller: "PlayerDetailController"
   })
   .state("about", {
     url: "/about",

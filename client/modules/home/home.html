@@ -15,9 +15,16 @@
 
       <button type="submit" class="btn btn-warning">Search</button>
     </form>
-
-    <p>You just searched: {{ playerIGN2 }}</p>
   </div>
 
   <div class="col-xs-3"></div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h2>{{ player.IGN }}</h2>
+
+    <p>Premium Level: {{ player.premiumLevel ? "P" + player.premiumLevel : "None" }}</p>
+    <p>Fame: {{ player.fame }}</p>
+  </div>
 </div>
